@@ -147,7 +147,6 @@ MODE_WORLD_WRITEABLE          赋予所有的应用程序对该文件写的权�
                 String dirPath = getFilesDir().getParent()+File.separator+".dir";
                 File dir = new File(dirPath);
                 dir.mkdirs();
-                ;
 
                 //设置权限  该文件夹以及其子文件
                 String str = "chmod " +dirPath+" "+"777"+" && busybox chmod"+dirPath +" "+"777";
