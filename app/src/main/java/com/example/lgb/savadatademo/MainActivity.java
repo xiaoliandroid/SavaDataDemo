@@ -194,5 +194,8 @@ MODE_WORLD_WRITEABLE          赋予所有的应用程序对该文件写的权�
         }
     }
 
+    private void text() {
+
+    }
 
 }
